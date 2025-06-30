@@ -1,0 +1,28 @@
+
+steps :  
+=> ng new flowers-shop --inline-style --inline-template
+
+=> ng g s flowers --flat
+
+=> OPEN CODE editor
+
+=> fill up the service list
+
+=> create the flowers list component : ng g c flowersList --flat --standalone
+
+=> create the flowers card component : ng g c flowerCard --flat --standalone
+
+==> display the list using the app.module and just call the flowers list component in the app component
+
+=> create route for the list component 
+
+=> display it  with routing 
+
+=>  create the flowers view component : ng g c viewFlower --flat --standalone
+
+=> add the router details in the routes list 
+
+=> NOW => modify the app.component to be standalone with imports to the routerMOdule 
+
+=> then modify the main.ts to boostrap the application with providers
+
